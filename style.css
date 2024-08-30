@@ -35,6 +35,34 @@ body {
     gap: 16px;
 }
 
+.first-section {
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.second-section {
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.third-section {
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.fourth-section {
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
 .footer {
     background-color: #1F2937;
     color: #e5e5e5;
