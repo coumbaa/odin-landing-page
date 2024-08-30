@@ -43,6 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 25px;
+    margin-top: auto;
 
     /* DEBUG BORDERS */
     border-style: solid;
