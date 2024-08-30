@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    
 
     /* DEBUG BORDERS */
     border-style: solid;
@@ -35,7 +36,21 @@ body {
     gap: 16px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
 .first-section {
+    display: flex;
+    flex: 1;
+
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
@@ -43,6 +58,7 @@ body {
 }
 
 .second-section {
+    flex: 1;
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
@@ -50,6 +66,7 @@ body {
 }
 
 .third-section {
+    flex: 1;
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
@@ -57,6 +74,7 @@ body {
 }
 
 .fourth-section {
+    flex: 1;
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
