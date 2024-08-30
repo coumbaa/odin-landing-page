@@ -50,6 +50,7 @@ body {
 .first-section {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
     flex: 1;
 
     /* DEBUG BORDERS */
@@ -59,8 +60,31 @@ body {
 }
 
 .main-text {
+    display: flex;
     color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
 }
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.sign-up {
+    align-self: flex-start;
+}
+
 
 .second-section {
     flex: 1;
@@ -102,7 +126,11 @@ body {
     border-color: #00FF00; 
 }
 
-
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 5px 15px;
+}
 
 ul {
     list-style: none;
