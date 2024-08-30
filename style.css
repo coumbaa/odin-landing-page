@@ -58,6 +58,10 @@ body {
     border-color: #00FF00; 
 }
 
+.main-text {
+    color: #f9faf8;
+}
+
 .second-section {
     flex: 1;
     /* DEBUG BORDERS */
