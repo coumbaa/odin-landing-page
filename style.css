@@ -86,7 +86,8 @@ body {
 }
 
 .first-section-right {
-
+    max-height: 200px;
+    max-width: 420px;
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
