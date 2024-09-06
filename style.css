@@ -35,6 +35,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
+    padding: 50px;
 }
 
 .main-text {
@@ -141,7 +142,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 60px;
 }
 
 .box {
