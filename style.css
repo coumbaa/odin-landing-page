@@ -156,6 +156,39 @@ body {
 
 .third-section {
     flex: 1;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.container-third {
+    padding: 100px;
+    max-width: 750px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+
+
+    /* DEBUG BORDERS */
+    border-style: solid;
+    border-width: 2px; 
+    border-color: #00FF00; 
+}
+
+.thor {
+    text-align: right;
+    padding-right: 5px;
+    font-size: 30px;
+
     /* DEBUG BORDERS */
     border-style: solid;
     border-width: 2px; 
